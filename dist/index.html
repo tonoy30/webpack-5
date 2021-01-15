@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Webpack</title>
+	<link rel="icon" href="favicon.ico"><link href="app.css" rel="stylesheet"></head>
+	<body>
+		<header>
+			<section class="hero is-info is-large">
+				<div class="hero-head">
+					<nav class="navbar">
+						<div class="container">
+							<div class="navbar-brand">
+								<a class="navbar-item logo">
+									TONOY
+								</a>
+								<span
+									class="navbar-burger"
+									data-target="navbarMenuHeroB"
+								>
+									<span></span>
+									<span></span>
+									<span></span>
+								</span>
+							</div>
+							<div id="navbarMenuHeroB" class="navbar-menu">
+								<div class="navbar-end">
+									<a class="navbar-item is-active">
+										Home
+									</a>
+									<a class="navbar-item">
+										Examples
+									</a>
+									<a class="navbar-item">
+										Documentation
+									</a>
+									<span class="navbar-item">
+										<a class="button is-info is-inverted">
+											<span class="icon">
+												<i class="fab fa-github"></i>
+											</span>
+											<span>Download</span>
+										</a>
+									</span>
+								</div>
+							</div>
+						</div>
+					</nav>
+				</div>
+
+				<div class="hero-body">
+					<div class="container has-text-centered">
+						<p class="title">
+							Title
+						</p>
+						<p class="subtitle">
+							Subtitle
+						</p>
+					</div>
+				</div>
+
+				<div class="hero-foot">
+					<nav class="tabs is-boxed is-fullwidth">
+						<div class="container">
+							<ul>
+								<li class="is-active">
+									<a>Overview</a>
+								</li>
+								<li>
+									<a>Modifiers</a>
+								</li>
+								<li>
+									<a>Grid</a>
+								</li>
+								<li>
+									<a>Elements</a>
+								</li>
+								<li>
+									<a>Components</a>
+								</li>
+								<li>
+									<a>Layout</a>
+								</li>
+							</ul>
+						</div>
+					</nav>
+				</div>
+			</section>
+		</header>
+		<main>
+			<section class="section">
+				<div class="container">
+					<h1 class="title">Section</h1>
+					<h2 class="subtitle">
+						A simple container to divide your page into
+						<strong>sections</strong>, like the one you're currently
+						reading
+					</h2>
+				</div>
+			</section>
+			<section class="section">
+				<div class="tile is-ancestor">
+					<div class="tile is-parent">
+						<article class="tile is-child box">
+							<p class="title">One</p>
+							<p class="subtitle">Subtitle</p>
+						</article>
+					</div>
+					<div class="tile is-parent">
+						<article class="tile is-child box">
+							<p class="title">Two</p>
+							<p class="subtitle">Subtitle</p>
+						</article>
+					</div>
+					<div class="tile is-parent">
+						<article class="tile is-child box">
+							<p class="title">Three</p>
+							<p class="subtitle">Subtitle</p>
+						</article>
+					</div>
+					<div class="tile is-parent">
+						<article class="tile is-child box">
+							<p class="title">Four</p>
+							<p class="subtitle">Subtitle</p>
+						</article>
+					</div>
+				</div>
+
+				<div class="tile is-ancestor">
+					<div class="tile is-vertical is-9">
+						<div class="tile">
+							<div class="tile is-parent">
+								<article class="tile is-child box">
+									<p class="title">Five</p>
+									<p class="subtitle">Subtitle</p>
+									<div class="content">
+										<p>
+											Lorem ipsum dolor sit amet,
+											consectetur adipiscing elit. Etiam
+											semper diam at erat pulvinar, at
+											pulvinar felis blandit. Vestibulum
+											volutpat tellus diam, consequat
+											gravida libero rhoncus ut. Morbi
+											maximus, leo sit amet vehicula
+											eleifend, nunc dui porta orci, quis
+											semper odio felis ut quam.
+										</p>
+									</div>
+								</article>
+							</div>
+							<div class="tile is-8 is-vertical">
+								<div class="tile">
+									<div class="tile is-parent">
+										<article class="tile is-child box">
+											<p class="title">Six</p>
+											<p class="subtitle">Subtitle</p>
+										</article>
+									</div>
+									<div class="tile is-parent">
+										<article class="tile is-child box">
+											<p class="title">Seven</p>
+											<p class="subtitle">Subtitle</p>
+										</article>
+									</div>
+								</div>
+								<div class="tile is-parent">
+									<article class="tile is-child box">
+										<p class="title">Eight</p>
+										<p class="subtitle">Subtitle</p>
+									</article>
+								</div>
+							</div>
+						</div>
+						<div class="tile">
+							<div class="tile is-8 is-parent">
+								<article class="tile is-child box">
+									<p class="title">Nine</p>
+									<p class="subtitle">Subtitle</p>
+									<div class="content">
+										<p>
+											Lorem ipsum dolor sit amet,
+											consectetur adipiscing elit. Proin
+											ornare magna eros, eu pellentesque
+											tortor vestibulum ut. Maecenas non
+											massa sem. Etiam finibus odio quis
+											feugiat facilisis.
+										</p>
+									</div>
+								</article>
+							</div>
+							<div class="tile is-parent">
+								<article class="tile is-child box">
+									<p class="title">Ten</p>
+									<p class="subtitle">Subtitle</p>
+									<div class="content">
+										<p>
+											Lorem ipsum dolor sit amet,
+											consectetur adipiscing elit. Proin
+											ornare magna eros, eu pellentesque
+											tortor vestibulum ut. Maecenas non
+											massa sem. Etiam finibus odio quis
+											feugiat facilisis.
+										</p>
+									</div>
+								</article>
+							</div>
+						</div>
+					</div>
+					<div class="tile is-parent">
+						<article class="tile is-child box">
+							<div class="content">
+								<p class="title">Eleven</p>
+								<p class="subtitle">Subtitle</p>
+								<div class="content">
+									<p>
+										Lorem ipsum dolor sit amet, consectetur
+										adipiscing elit. Etiam semper diam at
+										erat pulvinar, at pulvinar felis
+										blandit. Vestibulum volutpat tellus
+										diam, consequat gravida libero rhoncus
+										ut. Morbi maximus, leo sit amet vehicula
+										eleifend, nunc dui porta orci, quis
+										semper odio felis ut quam.
+									</p>
+									<p>
+										Integer sollicitudin, tortor a mattis
+										commodo, velit urna rhoncus erat, vitae
+										congue lectus dolor consequat libero.
+										Donec leo ligula, maximus et
+										pellentesque sed, gravida a metus. Cras
+										ullamcorper a nunc ac porta. Aliquam ut
+										aliquet lacus, quis faucibus libero.
+										Quisque non semper leo.
+									</p>
+								</div>
+							</div>
+						</article>
+					</div>
+				</div>
+
+				<div class="tile is-ancestor">
+					<div class="tile is-parent">
+						<article class="tile is-child box">
+							<p class="title">Twelve</p>
+							<p class="subtitle">Subtitle</p>
+							<div class="content">
+								<p>
+									Lorem ipsum dolor sit amet, consectetur
+									adipiscing elit. Proin ornare magna eros, eu
+									pellentesque tortor vestibulum ut.
+								</p>
+							</div>
+						</article>
+					</div>
+					<div class="tile is-parent is-6">
+						<article class="tile is-child box">
+							<p class="title">Thirteen</p>
+							<p class="subtitle">Subtitle</p>
+							<div class="content">
+								<p>
+									Lorem ipsum dolor sit amet, consectetur
+									adipiscing elit. Proin ornare magna eros, eu
+									pellentesque tortor vestibulum ut. Maecenas
+									non massa sem. Etiam finibus odio quis
+									feugiat facilisis.
+								</p>
+							</div>
+						</article>
+					</div>
+					<div class="tile is-parent">
+						<article class="tile is-child box">
+							<p class="title">Fourteen</p>
+							<p class="subtitle">Subtitle</p>
+							<div class="content">
+								<p>
+									Lorem ipsum dolor sit amet, consectetur
+									adipiscing elit. Proin ornare magna eros, eu
+									pellentesque tortor vestibulum ut.
+								</p>
+							</div>
+						</article>
+					</div>
+				</div>
+			</section>
+		</main>
+		<footer class="footer">
+			<div class="level is-mobile">
+				<div class="level-item has-text-centered">
+					<div>
+						<p class="heading">Tweets</p>
+						<p class="title">3,456</p>
+					</div>
+				</div>
+				<div class="level-item has-text-centered">
+					<div>
+						<p class="heading">Following</p>
+						<p class="title">123</p>
+					</div>
+				</div>
+				<div class="level-item has-text-centered">
+					<div>
+						<p class="heading">Followers</p>
+						<p class="title">456K</p>
+					</div>
+				</div>
+				<div class="level-item has-text-centered">
+					<div>
+						<p class="heading">Likes</p>
+						<p class="title">789</p>
+					</div>
+				</div>
+			</div>
+			<div class="content has-text-centered mt-4">
+				<p>
+					<strong>Bulma</strong> by
+					<a href="https://jgthms.com">Jeremy Thomas</a>. The source
+					code is licensed
+					<a href="http://opensource.org/licenses/mit-license.php"
+						>MIT</a
+					>. The website content is licensed
+					<a href="http://creativecommons.org/licenses/by-nc-sa/4.0/"
+						>CC BY NC SA 4.0</a
+					>.
+				</p>
+			</div>
+		</footer>
+	<script src="app.b5e1d0b2d1b3969b9ed6.js"></script></body>
+</html>

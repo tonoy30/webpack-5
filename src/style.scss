@@ -1,0 +1,33 @@
+@import "../node_modules/bulma/css/bulma.min.css";
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+// Margin & padding classes
+$spaceamounts: (1, 2, 3, 4, 5);
+
+@each $space in $spaceamounts {
+	.m-#{$space} {
+		margin: #{$space}rem;
+	}
+	.my-#{$space} {
+		margin: #{$space}rem 0;
+	}
+	.mt-#{$space} {
+		margin-top: #{$space}rem !important;
+	}
+
+	.p-#{$space} {
+		padding: #{$space}rem;
+	}
+	.py-#{$space} {
+		padding: #{$space}rem 0;
+	}
+}
+.logo {
+	font-size: 1.5rem;
+	font-weight: bold;
+	color: #3298dc;
+}
